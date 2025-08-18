@@ -1,0 +1,8 @@
+{
+    "posts": [
+      { "id": 1, "title": "Hello TanStack", "body": "Bài viết đầu tiên" },
+      { "id": 2, "title": "React Query Rocks", "body": "Cache + Sync dữ liệu" },
+      { "id": 3, "title": "Pagination vs Infinite", "body": "Phân trang hay load-more?" }
+    ]
+  }
+  
