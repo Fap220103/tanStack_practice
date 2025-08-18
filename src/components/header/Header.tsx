@@ -1,9 +1,11 @@
-import routerMeta, { IRouterMeta } from '@/lib/routerMeta';
+
 import { Link } from 'react-router-dom';
 import ProfileItem from './ProfileItem';
 import { useContext } from 'react';
 import { UserContext } from '@/contexts/UserContextProvider';
 import NavItem from './NavItem';
+import type { IRouterMeta } from '@/lib/routerMeta';
+import routerMeta from '@/lib/routerMeta';
 
 const Header = () => {
   const { isLogin } = useContext(UserContext);

@@ -1,4 +1,5 @@
-import { IRouterMeta } from '@/lib/routerMeta';
+
+import type { IRouterMeta } from '@/lib/routerMeta';
 import { NavLink } from 'react-router-dom';
 
 interface INavItemProps {
