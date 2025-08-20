@@ -1,13 +1,18 @@
-import './App.css'
-import { PostPage } from './pages/PostPage'
+import "./App.css";
+import UserContextProvider from "./contexts/UserContextProvider";
+import Router from "./Router";
 
 function App() {
-
   return (
     <>
-     <PostPage></PostPage>
+      <div className="App">
+        <UserContextProvider>
+          <Router />
+        </UserContextProvider>
+      </div>
+      {/* <PostPage></PostPage> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

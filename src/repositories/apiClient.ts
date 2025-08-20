@@ -1,9 +1,8 @@
-import { ACCESS_TOKEN_KEY } from "@/constants/token.constant";
 import token from "@/lib/token";
 import axios, { AxiosError } from "axios";
 import type { AxiosResponse, InternalAxiosRequestConfig } from "axios";
 
-const host = "http://localhost:3000";
+const host = "http://localhost:5000/api";
 
 const apiClient = axios.create({
   baseURL: host,

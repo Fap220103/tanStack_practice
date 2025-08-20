@@ -18,35 +18,6 @@ export interface IRouterMeta {
       isShow: true,
       isCommon: true,
     },
-    NewArticlePage: {
-      name: 'New Article',
-      path: '/editor',
-      isShow: true,
-      isAuth: true,
-      icon: 'ion-compose',
-    },
-    EditArticlePage: {
-      name: 'Edit Article',
-      path: '/editor/:slug',
-      isShow: false,
-    },
-    SettingPage: {
-      name: 'Setting',
-      path: '/settings',
-      isShow: true,
-      isAuth: true,
-      icon: 'ion-gear-a',
-    },
-    ArticlePage: {
-      name: 'Article',
-      path: '/article/:slug',
-      isShow: false,
-    },
-    ProfilePage: {
-      name: 'Profile',
-      path: '/profile/:username/*',
-      isShow: false,
-    },
     SignInPage: {
       name: 'Sign in',
       path: '/login',
@@ -56,6 +27,12 @@ export interface IRouterMeta {
     SignUpPage: {
       name: 'Sign up',
       path: '/register',
+      isShow: true,
+      isAuth: false,
+    },
+    PostPage: {
+      name: 'Post',
+      path: '/post',
       isShow: true,
       isAuth: false,
     },
